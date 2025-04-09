@@ -62,7 +62,13 @@ class DashboardScreen extends StatelessWidget {
             _simpleDrawerItem(Icons.dashboard, "Dashboard"),
             _simpleDrawerItem(Icons.person, "Profile"),
             _simpleDrawerItem(Icons.notifications, "DIU Notice"),
+            _simpleDrawerItem(Icons.directions_bus, "Bus Service"),
+            _simpleDrawerItem(Icons.card_giftcard, "Promo Code"),
+            _simpleDrawerItem(Icons.location_on, "Agent Location"),
+            _simpleDrawerItem(Icons.share, "Contact Sharing"),
             _simpleDrawerItem(Icons.settings, "Settings"),
+            _simpleDrawerItem(Icons.help_outline, "Help"),
+            _simpleDrawerItem(Icons.info_outline, "About"),
             _simpleDrawerItem(Icons.help, "FAQ"),
             _simpleDrawerItem(Icons.logout, "Sign Out"),
           ],
@@ -71,7 +77,7 @@ class DashboardScreen extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            color: Colors.deepPurple.shade200,
+            color: Colors.deepPurple.shade400,
             padding: EdgeInsets.symmetric(vertical: 12),
             child: Column(
               children: [
