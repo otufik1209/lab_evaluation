@@ -149,7 +149,11 @@ class DashboardScreen extends StatelessWidget {
                         ),
                         child: TextButton.icon(
                           onPressed: () {},
-                          icon: Icon(Icons.qr_code, color: Colors.white),
+                          icon: Icon(
+                            Icons.qr_code,
+                            color: Colors.white,
+                            size: 30,
+                          ),
                           label: Text("Scan Me",
                               style: TextStyle(color: Colors.white)),
                         ),
